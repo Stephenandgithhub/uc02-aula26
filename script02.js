@@ -14,3 +14,6 @@ switch (command.toLowerCase()) {
   default:
     break;
 }
+if (elementImage.src != null) {
+  document.body.appendChild(elementImage);
+}
